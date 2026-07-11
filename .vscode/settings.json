@@ -1,0 +1,22 @@
+{
+  // 입력 중 제안 팝업 끄기
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  // 트리거 문자(. 등) 입력 시 제안 끄기
+  "editor.suggestOnTriggerCharacters": false,
+  // Enter로 제안 자동 완성 끄기
+  "editor.acceptSuggestionOnEnter": "off",
+  // 단어 기반 제안 끄기
+  "editor.wordBasedSuggestions": "off",
+  // 파라미터 힌트 끄기
+  "editor.parameterHints.enabled": false,
+  // AI 인라인 제안(회색 텍스트) 끄기
+  "editor.inlineSuggest.enabled": false,
+  // GitHub Copilot 끄기
+  "github.copilot.enable": {
+    "*": false
+  }
+}
