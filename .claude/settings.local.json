@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Skill(claude-api)",
-      "Skill(claude-api:*)"
+      "Skill(claude-api:*)",
+      "Bash(.venv/bin/python -c \"import langchain.agents as a; print\\([x for x in dir\\(a\\) if 'agent' in x.lower\\(\\)]\\)\")",
+      "Bash(.venv/bin/python -c \"from langchain.agents import create_agent; import inspect; print\\(str\\(inspect.signature\\(create_agent\\)\\)[:400]\\)\")"
     ]
   }
 }
